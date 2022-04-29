@@ -1,3 +1,5 @@
+Follow steps 1-5 in `cowsay.sh` to fill in necessary commands to render a text bubble on top of a valid animal found under `drawings/`.
+
 ```
 $ ./cowsay.sh 
 Choose an animal: turtle
