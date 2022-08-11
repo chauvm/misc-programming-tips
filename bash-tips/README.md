@@ -373,3 +373,18 @@ $ bash -v some_script.sh
 ### set -e to exit script on failure
 Having `set -e` at the beginning of a script stops the script from executing subsequent lines once an error is encountered.
 
+
+# Frequently used commands
+### Find total size of directories
+```
+du -sh *
+```
+This is a shortcut for `du --summarize --human-readable *`.
+
+Explanation:
+
+du: Disk Usage
+
+-s: Display a summary for each specified file. (Equivalent to -d 0)
+
+-h: "Human-readable" output. Use unit suffixes: Byte, Kibibyte (KiB), Mebibyte (MiB), Gibibyte (GiB), Tebibyte (TiB) and Pebibyte (PiB). (BASE2)
